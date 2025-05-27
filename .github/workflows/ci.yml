@@ -42,5 +42,5 @@ jobs:
       run: npm ci
       working-directory: ./frontend/file-comparator-fe
     - name: Run frontend tests
-      run: npm test -- --watchAll=false
+      run: npm test
       working-directory: ./frontend/file-comparator-fe
