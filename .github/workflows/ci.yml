@@ -1,0 +1,46 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    env:
+      SECRET_KEY: something-insecure-for-ci
+
+    steps:
+    - uses: actions/checkout@v3
+
+    # Python
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    - name: Install backend deps
+      run: |
+        pip install -r requirements.txt
+    - name: Debug list files
+      run: |
+        echo "Workspace = ${{ github.workspace }}"
+        pwd
+        ls -R .
+    - name: Run backend tests
+      env:
+        PYTHONPATH: ${{ github.workspace }}
+      run: pytest
+
+    # Node / React
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+    - name: Install frontend deps
+      run: npm ci
+      working-directory: ./frontend/file-comparator-fe
+    - name: Run frontend tests
+      run: npm test
+      working-directory: ./frontend/file-comparator-fe
