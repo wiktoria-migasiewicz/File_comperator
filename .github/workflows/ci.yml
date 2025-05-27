@@ -57,6 +57,52 @@ jobs:
         with:
           sarif_file: semgrep-results.sarif
 
+  sca-python:
+    name: 🧩 SCA (Python)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install pip-audit
+        run: pip install pip-audit
+
+      - name: Run pip-audit → JSON
+        run: pip-audit --format json > pip-audit.json || true
+
+      - name: Show npm audit JSON
+        run: |
+          echo ">>>>> pip-audit.json <<<<<"
+
+
+  sca-node:
+    name: 🧩 SCA (Node)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install deps
+        run: npm ci
+        working-directory: ./frontend/file-comparator-fe
+
+      - name: Run npm audit
+        working-directory: ./frontend/file-comparator-fe
+        run: |
+          npm audit --json > npm-audit.json
+
+      - name: Show npm audit JSON
+        run: |
+          echo ">>>>> pip-audit.json <<<<<"
+
   # --- build and test ---
   build-and-test:
     name: 🔨 Build & Test
@@ -95,6 +141,10 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '18'
+
+      - name: Install missing Rollup native module
+        run: npm install @rollup/rollup-linux-x64-gnu --save-optional
+        working-directory: ./frontend/file-comparator-fe
 
       - name: Install frontend deps
         run: npm ci
