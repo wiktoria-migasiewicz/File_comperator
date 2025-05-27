@@ -71,14 +71,14 @@ jobs:
       - name: Install pip-audit
         run: pip install pip-audit
 
-      - name: Run pip-audit → SARIF
-        run: |
-          pip-audit --format=sarif > pip-audit.sarif
+      - name: Run pip-audit → JSON
+        run: pip-audit --format json > pip-audit.json || true
 
-      - name: Upload pip-audit SARIF
-        uses: github/codeql-action/upload-sarif@v3
+      - name: Upload pip-audit report
+        uses: actions/upload-artifact@v2
         with:
-          sarif_file: pip-audit.sarif
+         name: pip-audit-report
+         path: pip-audit.json
 
   sca-node:
     name: 🧩 SCA (Node)
@@ -99,7 +99,7 @@ jobs:
         run: |
           npm audit --json > npm-audit.json
       - name: Upload audit report artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v2
         with:
           name: npm-audit-report
           path: ./frontend/file-comparator-fe/npm-audit.json
