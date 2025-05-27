@@ -1,0 +1,1096 @@
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 786-686-498
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 786-686-498
+INFO:werkzeug: * Detected change in 'C:\\Users\\wikto\\PycharmProjects\\pythonProject1\\garbage\\backend\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\wikto\\PycharmProjects\\pythonProject1\\garbage\\backend\\app.py', reloading
+WARNING:werkzeug: * Debugger is active!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 786-686-498
+INFO:werkzeug: * Debugger PIN: 786-686-498
+INFO:werkzeug: * Detected change in 'C:\\Users\\wikto\\PycharmProjects\\pythonProject1\\garbage\\backend\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\wikto\\PycharmProjects\\pythonProject1\\garbage\\backend\\app.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 786-686-498
+INFO:werkzeug: * Debugger PIN: 786-686-498
+INFO:werkzeug: * Detected change in 'C:\\Users\\wikto\\PycharmProjects\\pythonProject1\\garbage\\backend\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\wikto\\PycharmProjects\\pythonProject1\\garbage\\backend\\app.py', reloading
+WARNING:werkzeug: * Debugger is active!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 786-686-498
+INFO:werkzeug: * Debugger PIN: 786-686-498
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 786-686-498
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:16:37] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:16:37] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:16:44] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:16:44] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:17:02] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:17:02] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 786-686-498
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:18:17] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:18:17] "POST /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:18:17] "OPTIONS /api/items?query= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:18:18] "[35m[1mGET /api/items?query= HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:18:18] "[35m[1mGET /api/items?query= HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:18:56] "OPTIONS /api/my-items HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:18:56] "OPTIONS /api/my-items/reservations HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:18:56] "OPTIONS /api/my-items HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:18:56] "OPTIONS /api/my-items/reservations HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:18:56] "GET /api/my-items HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\wikto\\PycharmProjects\\pythonProject1\\garbage\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 786-686-498
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:18:57] "GET /api/my-items HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:18:57] "GET /api/my-items/reservations HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:18:57] "OPTIONS /api/items?query= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:18:57] "OPTIONS /api/items?query= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:18:58] "GET /api/my-items/reservations HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:18:58] "GET /api/items?query= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:18:58] "GET /api/items?query= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:19:01] "GET /api/my-items/reservations HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:19:01] "GET /api/my-items/reservations HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:19:07] "OPTIONS /api/items?query= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:19:07] "OPTIONS /api/items?query= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:19:08] "GET /api/items?query= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:19:08] "GET /api/items?query= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:19:20] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:19:21] "POST /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:19:21] "OPTIONS /api/items?query= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:19:21] "OPTIONS /api/items?query= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:19:21] "GET /api/items?query= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:19:21] "GET /api/items?query= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:19:23] "OPTIONS /api/my-items HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:19:23] "OPTIONS /api/my-items/reservations HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:19:23] "GET /api/my-items HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:19:23] "OPTIONS /api/my-items/reservations HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:19:24] "GET /api/my-items/reservations HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:19:24] "GET /api/my-items HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:19:24] "GET /api/my-items/reservations HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:19:25] "GET /api/my-items/reservations HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:19:25] "GET /api/my-items/reservations HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:19:29] "OPTIONS /api/items?query= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:19:29] "OPTIONS /api/items?query= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:19:29] "GET /api/items?query= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:19:29] "GET /api/items?query= HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 786-686-498
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:20:00] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:20:00] "POST /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:20:00] "OPTIONS /api/items?query= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:20:00] "OPTIONS /api/items?query= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:20:00] "GET /api/items?query= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:20:01] "GET /api/items?query= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:20:08] "OPTIONS /api/my-items HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:20:08] "OPTIONS /api/my-items/reservations HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:20:08] "OPTIONS /api/my-items HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:20:08] "OPTIONS /api/my-items/reservations HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:20:08] "GET /api/my-items HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:20:08] "GET /api/my-items/reservations HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:20:08] "GET /api/my-items HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:20:08] "GET /api/my-items/reservations HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:20:10] "GET /api/my-items/reservations HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jan/2025 17:20:10] "GET /api/my-items/reservations HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 786-686-498
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 786-686-498
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 786-686-498
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 07:36:37] "OPTIONS /api/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 07:36:37] "[31m[1mPOST /api/register HTTP/1.1[0m" 400 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 786-686-498
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 786-686-498
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 786-686-498
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 786-686-498
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:11:38] "OPTIONS /api/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:11:38] "[35m[1mPOST /api/register HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:11:43] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:11:44] "POST /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:11:44] "OPTIONS /api/items?query= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:11:44] "OPTIONS /api/items?query= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:11:44] "GET /api/items?query= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:11:44] "GET /api/items?query= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:11:46] "OPTIONS /api/my-items HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:11:46] "OPTIONS /api/my-items/reservations HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:11:46] "OPTIONS /api/my-items HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:11:46] "OPTIONS /api/my-items/reservations HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:11:46] "GET /api/my-items HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:11:46] "GET /api/my-items/reservations HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:11:46] "GET /api/my-items HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:11:47] "GET /api/my-items/reservations HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:11:47] "GET /api/my-items/reservations HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:11:48] "GET /api/my-items/reservations HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 786-686-498
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 786-686-498
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 786-686-498
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 786-686-498
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 786-686-498
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 913-391-639
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:41:13] "OPTIONS /api/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:41:13] "[35m[1mPOST /api/register HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:44:08] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:44:08] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:49:14] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:49:14] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:49:22] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:49:22] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:49:42] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:49:42] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:51:51] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:51:51] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:51:51] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:51:51] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:51:51] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:51:51] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:51:51] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:51:51] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:51:51] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:51:52] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:52:01] "OPTIONS /api/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:52:02] "[35m[1mPOST /api/register HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:53:04] "OPTIONS /api/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:53:05] "[31m[1mPOST /api/register HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:53:14] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:53:14] "POST /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:53:14] "OPTIONS /api/items?query= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:53:14] "OPTIONS /api/items?query= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:53:14] "GET /api/items?query= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:53:15] "GET /api/items?query= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:54:50] "OPTIONS /api/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:54:50] "[35m[1mPOST /api/register HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:55:18] "OPTIONS /api/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:55:18] "[31m[1mPOST /api/register HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:55:40] "OPTIONS /api/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:55:40] "[31m[1mPOST /api/register HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:55:59] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:55:59] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:56:45] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:56:45] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:57:13] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Jan/2025 17:57:13] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 913-391-639
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 18:43:24] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 18:43:24] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 18:43:44] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 18:43:45] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 18:44:45] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 18:44:46] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 18:44:58] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 18:44:58] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 18:45:07] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 18:45:07] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 913-391-639
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 20:38:14] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 20:38:14] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 20:38:22] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 20:38:22] "POST /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 20:38:22] "OPTIONS /api/items?query= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 20:38:23] "GET /api/items?query= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 20:38:23] "GET /api/items?query= HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 913-391-639
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 20:41:12] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 20:41:12] "[35m[1mPOST /api/login HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 913-391-639
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 20:42:50] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 20:42:50] "[35m[1mPOST /api/login HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 913-391-639
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 913-391-639
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 20:43:21] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 20:43:22] "POST /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 20:43:22] "OPTIONS /api/items?query= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 20:43:22] "OPTIONS /api/items?query= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 20:43:22] "GET /api/items?query= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 20:43:22] "GET /api/items?query= HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 913-391-639
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 913-391-639
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 20:48:31] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 20:48:32] "POST /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 20:48:32] "OPTIONS /api/items?query= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 20:48:32] "OPTIONS /api/items?query= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 20:48:32] "GET /api/items?query= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 20:48:32] "GET /api/items?query= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 21:04:13] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 21:04:13] "POST /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 21:04:13] "OPTIONS /api/items?query= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 21:04:14] "OPTIONS /api/items?query= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 21:04:14] "GET /api/items?query= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 21:04:14] "GET /api/items?query= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 21:04:21] "OPTIONS /api/items?query='%20OR%201=1%20-- HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 21:04:21] "GET /api/items?query='%20OR%201=1%20-- HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 913-391-639
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 21:06:47] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 21:06:47] "[31m[1mPOST /api/login HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 21:06:57] "OPTIONS /api/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 21:06:58] "[31m[1mPOST /api/register HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 21:07:02] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 21:07:02] "[31m[1mPOST /api/login HTTP/1.1[0m" 400 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\wikto\\PycharmProjects\\pythonProject1\\garbage\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 913-391-639
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 21:08:54] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 21:08:54] "[31m[1mPOST /api/login HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 21:08:59] "[31m[1mPOST /api/login HTTP/1.1[0m" 400 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\wikto\\PycharmProjects\\pythonProject1\\garbage\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 913-391-639
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 21:10:16] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 21:10:17] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 21:10:20] "POST /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 21:10:21] "OPTIONS /api/items?query= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 21:10:21] "OPTIONS /api/items?query= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 21:10:21] "GET /api/items?query= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 21:10:21] "GET /api/items?query= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 21:10:35] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 21:10:35] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 21:10:50] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 21:10:51] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 21:10:59] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 21:10:59] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 21:11:09] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 21:11:09] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 21:11:30] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 21:11:30] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 21:12:21] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 21:12:22] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 913-391-639
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 21:15:00] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 21:15:00] "[35m[1mPOST /api/login HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 21:15:24] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 21:15:24] "POST /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 21:15:24] "OPTIONS /api/items?query= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 21:15:24] "OPTIONS /api/items?query= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 21:15:24] "GET /api/items?query= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 21:15:25] "GET /api/items?query= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 21:15:29] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 21:15:30] "[31m[1mPOST /api/login HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [23/Jan/2025 21:15:32] "[35m[1mPOST /api/login HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 913-391-639
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 913-391-639
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 913-391-639
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 913-391-639
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 913-391-639
+INFO:werkzeug: * Detected change in 'C:\\Users\\wikto\\PycharmProjects\\pythonProject1\\garbage\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 913-391-639
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 913-391-639
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 913-391-639
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 913-391-639
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 913-391-639
+INFO:werkzeug: * Detected change in 'C:\\Users\\wikto\\PycharmProjects\\pythonProject1\\garbage\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 913-391-639
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 913-391-639
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 913-391-639
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 913-391-639
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2025 11:51:26] "OPTIONS /api/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2025 11:51:27] "[35m[1mPOST /api/register HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2025 11:52:57] "OPTIONS /api/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2025 11:52:58] "[35m[1mPOST /api/register HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2025 11:53:32] "OPTIONS /api/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2025 11:53:33] "[31m[1mPOST /api/register HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2025 11:53:39] "OPTIONS /api/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2025 11:53:40] "[35m[1mPOST /api/register HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2025 11:54:30] "OPTIONS /api/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2025 11:54:31] "[35m[1mPOST /api/register HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2025 11:54:58] "OPTIONS /api/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jan/2025 11:54:59] "[35m[1mPOST /api/register HTTP/1.1[0m" 201 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 913-391-639
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 913-391-639
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 913-391-639
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 07:35:02] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 07:35:03] "[35m[1mPOST /api/login HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 07:36:11] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 07:36:11] "[31m[1mPOST /api/login HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 07:36:15] "[35m[1mPOST /api/login HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in 'C:\\Users\\wikto\\PycharmProjects\\pythonProject1\\garbage\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-500-333
+INFO:werkzeug: * Detected change in 'C:\\Users\\wikto\\PycharmProjects\\pythonProject1\\file_comperator\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-500-333
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-500-333
+INFO:werkzeug: * Detected change in 'C:\\Users\\wikto\\PycharmProjects\\pythonProject1\\file_comperator\\backend\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\wikto\\PycharmProjects\\pythonProject1\\file_comperator\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-500-333
+INFO:werkzeug: * Debugger PIN: 115-500-333
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-500-333
+INFO:werkzeug: * Detected change in 'C:\\Users\\wikto\\PycharmProjects\\pythonProject1\\file_comperator\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-500-333
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-500-333
+INFO:werkzeug: * Detected change in 'C:\\Users\\wikto\\PycharmProjects\\pythonProject1\\file_comperator\\backend\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\wikto\\PycharmProjects\\pythonProject1\\file_comperator\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-500-333
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-500-333
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-500-333
+INFO:werkzeug: * Detected change in 'C:\\Users\\wikto\\PycharmProjects\\pythonProject1\\file_comperator\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Detected change in 'C:\\Users\\wikto\\PycharmProjects\\pythonProject1\\file_comperator\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-500-333
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-500-333
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-500-333
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-500-333
+INFO:werkzeug:127.0.0.1 - - [05/May/2025 18:40:01] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/May/2025 18:40:01] "POST /api/login HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-500-333
+INFO:werkzeug:127.0.0.1 - - [05/May/2025 19:16:12] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/May/2025 19:16:12] "POST /api/login HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-500-333
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 15:28:27] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 15:28:27] "POST /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 15:32:44] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 15:32:45] "POST /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 15:41:41] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 15:41:42] "POST /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 15:42:37] "OPTIONS /api/compare HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 15:42:37] "POST /api/compare HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 15:42:42] "OPTIONS /api/save-comparison HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 15:42:42] "[35m[1mPOST /api/save-comparison HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 15:42:46] "OPTIONS /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 15:42:47] "OPTIONS /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 15:42:47] "GET /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 15:42:47] "GET /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 15:53:05] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 15:53:05] "POST /api/login HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-500-333
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:22:04] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:22:05] "POST /api/login HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\wikto\\PycharmProjects\\pythonProject1\\file_compering_new\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-500-333
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-500-333
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-500-333
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:35:25] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:35:25] "POST /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:35:29] "OPTIONS /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:35:30] "OPTIONS /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:35:30] "GET /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:35:30] "GET /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:36:33] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:36:33] "POST /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:36:36] "OPTIONS /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:36:36] "OPTIONS /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:36:36] "GET /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:36:37] "GET /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-500-333
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:38:00] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:38:00] "POST /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:38:03] "OPTIONS /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:38:04] "OPTIONS /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:38:04] "GET /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:38:04] "GET /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\wikto\\PycharmProjects\\pythonProject1\\file_compering_new\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-500-333
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-500-333
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-500-333
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:44:04] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:44:05] "POST /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:44:07] "OPTIONS /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:44:07] "OPTIONS /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:44:07] "GET /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:44:08] "GET /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-500-333
+INFO:werkzeug: * Detected change in 'C:\\Users\\wikto\\PycharmProjects\\pythonProject1\\file_compering_new\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-500-333
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:48:04] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:48:05] "POST /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:48:07] "OPTIONS /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:48:07] "OPTIONS /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:48:07] "GET /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:48:07] "GET /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:48:09] "OPTIONS /api/comparison/6 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:48:10] "DELETE /api/comparison/6 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:48:13] "OPTIONS /api/comparison/4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:48:13] "DELETE /api/comparison/4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:48:16] "OPTIONS /api/comparison/5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:48:17] "DELETE /api/comparison/5 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:48:20] "OPTIONS /api/comparison/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:48:20] "DELETE /api/comparison/3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:48:24] "OPTIONS /api/comparison/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:48:24] "DELETE /api/comparison/2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:48:25] "OPTIONS /api/comparison/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:48:26] "DELETE /api/comparison/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:48:39] "OPTIONS /api/compare HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:48:39] "POST /api/compare HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:48:41] "OPTIONS /api/save-comparison HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:48:41] "[35m[1mPOST /api/save-comparison HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:49:00] "OPTIONS /api/compare HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:49:00] "POST /api/compare HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:49:02] "OPTIONS /api/save-comparison HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:49:03] "[35m[1mPOST /api/save-comparison HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:49:09] "OPTIONS /api/compare HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:49:09] "POST /api/compare HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:49:13] "OPTIONS /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:49:13] "OPTIONS /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:49:13] "GET /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 16:49:14] "GET /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-500-333
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:34:25] "OPTIONS /api/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:34:26] "[35m[1mPOST /api/register HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:34:30] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:34:30] "POST /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:37:32] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:37:33] "POST /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:39:35] "OPTIONS /api/compare HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:39:35] "POST /api/compare HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:39:36] "OPTIONS /api/save-comparison HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:39:37] "[35m[1mPOST /api/save-comparison HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:39:44] "OPTIONS /api/compare HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:39:45] "POST /api/compare HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:39:46] "OPTIONS /api/save-comparison HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:39:46] "[35m[1mPOST /api/save-comparison HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:39:57] "OPTIONS /api/compare HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:39:57] "[31m[1mPOST /api/compare HTTP/1.1[0m" 415 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:40:28] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:40:28] "POST /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:40:30] "OPTIONS /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:40:31] "OPTIONS /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:40:31] "GET /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:40:31] "GET /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:41:10] "OPTIONS /api/comparison/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:41:10] "DELETE /api/comparison/9 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:41:20] "OPTIONS /api/compare HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:41:21] "[31m[1mPOST /api/compare HTTP/1.1[0m" 415 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:41:30] "OPTIONS /api/compare HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:41:30] "[31m[1mPOST /api/compare HTTP/1.1[0m" 415 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:41:36] "OPTIONS /api/compare HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:41:36] "POST /api/compare HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:41:45] "OPTIONS /api/save-comparison HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:41:45] "[35m[1mPOST /api/save-comparison HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:41:57] "OPTIONS /api/compare HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:41:58] "[31m[1mPOST /api/compare HTTP/1.1[0m" 415 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:42:32] "OPTIONS /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:42:32] "OPTIONS /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:42:32] "GET /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:42:32] "GET /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:42:43] "OPTIONS /api/compare HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:42:43] "POST /api/compare HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:42:45] "OPTIONS /api/save-comparison HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:42:46] "[35m[1mPOST /api/save-comparison HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:42:56] "OPTIONS /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:42:56] "OPTIONS /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:42:56] "GET /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:42:56] "GET /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:43:21] "OPTIONS /api/compare HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:43:22] "POST /api/compare HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:43:23] "OPTIONS /api/save-comparison HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:43:23] "[35m[1mPOST /api/save-comparison HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:43:28] "OPTIONS /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:43:28] "OPTIONS /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:43:28] "GET /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:43:29] "GET /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:43:32] "OPTIONS /api/comparison/13 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:43:33] "DELETE /api/comparison/13 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:44:08] "OPTIONS /api/compare HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:44:08] "POST /api/compare HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:45:54] "OPTIONS /api/compare HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:50:57] "OPTIONS /api/compare HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:50:57] "POST /api/compare HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:51:40] "OPTIONS /api/compare HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:52:24] "OPTIONS /api/compare HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:52:24] "POST /api/compare HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:52:32] "OPTIONS /api/save-comparison HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:52:32] "[35m[1mPOST /api/save-comparison HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:52:34] "OPTIONS /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:52:35] "OPTIONS /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:52:35] "GET /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:52:35] "GET /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:52:48] "OPTIONS /api/compare HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:52:48] "POST /api/compare HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:52:56] "OPTIONS /api/save-comparison HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:52:57] "[35m[1mPOST /api/save-comparison HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:53:57] "OPTIONS /api/compare HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:54:04] "OPTIONS /api/compare HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:54:10] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:54:11] "POST /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:54:19] "OPTIONS /api/compare HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:54:19] "POST /api/compare HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:54:22] "OPTIONS /api/save-comparison HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:54:22] "[35m[1mPOST /api/save-comparison HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:54:36] "OPTIONS /api/compare HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:54:36] "POST /api/compare HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:54:38] "OPTIONS /api/save-comparison HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:54:38] "[35m[1mPOST /api/save-comparison HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:54:40] "OPTIONS /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:54:40] "OPTIONS /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:54:40] "GET /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:54:40] "GET /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:59:55] "OPTIONS /api/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:59:56] "[35m[1mPOST /api/register HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:59:59] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 20:59:59] "POST /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:00:08] "OPTIONS /api/compare HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:00:08] "POST /api/compare HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:00:12] "OPTIONS /api/save-comparison HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:00:12] "[35m[1mPOST /api/save-comparison HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:00:14] "OPTIONS /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:00:14] "OPTIONS /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:00:14] "GET /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:00:15] "GET /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:00:21] "OPTIONS /api/comparison/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:00:21] "DELETE /api/comparison/17 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:00:27] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:00:27] "POST /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:00:29] "OPTIONS /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:00:29] "OPTIONS /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:00:29] "GET /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:00:30] "GET /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:02:00] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:02:01] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:05:17] "OPTIONS /api/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:05:17] "[35m[1mPOST /api/register HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:05:20] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:05:20] "POST /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:05:28] "OPTIONS /api/compare HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:05:29] "POST /api/compare HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:05:34] "OPTIONS /api/save-comparison HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:05:34] "[35m[1mPOST /api/save-comparison HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:05:40] "OPTIONS /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:05:40] "OPTIONS /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:05:40] "GET /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:05:40] "GET /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:05:47] "OPTIONS /api/comparison/18 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:05:47] "DELETE /api/comparison/18 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:05:52] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:05:52] "POST /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:05:55] "OPTIONS /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:05:55] "OPTIONS /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:05:55] "GET /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:05:55] "GET /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:08:22] "OPTIONS /api/register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:08:22] "[35m[1mPOST /api/register HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:08:25] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:08:25] "POST /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:08:33] "OPTIONS /api/compare HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:08:34] "POST /api/compare HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:08:39] "OPTIONS /api/save-comparison HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:08:40] "[35m[1mPOST /api/save-comparison HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:08:44] "OPTIONS /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:08:44] "OPTIONS /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:08:44] "GET /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:08:44] "GET /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:08:58] "OPTIONS /api/compare HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:08:58] "POST /api/compare HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:09:05] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:09:05] "POST /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:09:08] "OPTIONS /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:09:09] "OPTIONS /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:09:09] "GET /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:09:09] "GET /api/my-comparisons HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:09:25] "OPTIONS /api/comparison/16 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:09:25] "DELETE /api/comparison/16 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:09:27] "OPTIONS /api/comparison/14 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/May/2025 21:09:28] "DELETE /api/comparison/14 HTTP/1.1" 200 -
+2025-05-08 18:35:29,726 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+2025-05-08 18:35:29,728 INFO [33mPress CTRL+C to quit[0m
+2025-05-08 18:36:18,260 INFO 127.0.0.1 - - [08/May/2025 18:36:18] "OPTIONS /api/login HTTP/1.1" 200 -
+2025-05-08 18:36:18,490 WARNING Forbidden (CSRF token missing or incorrect.): /api/login
+2025-05-08 18:36:18,493 INFO 127.0.0.1 - - [08/May/2025 18:36:18] "[31m[1mPOST /api/login HTTP/1.1[0m" 403 -
+2025-05-08 18:36:20,308 WARNING Forbidden (CSRF token missing or incorrect.): /api/login
+2025-05-08 18:36:20,309 INFO 127.0.0.1 - - [08/May/2025 18:36:20] "[31m[1mPOST /api/login HTTP/1.1[0m" 403 -
+2025-05-08 18:36:21,578 WARNING Forbidden (CSRF token missing or incorrect.): /api/login
+2025-05-08 18:36:21,579 INFO 127.0.0.1 - - [08/May/2025 18:36:21] "[31m[1mPOST /api/login HTTP/1.1[0m" 403 -
+2025-05-08 18:36:22,521 WARNING Forbidden (CSRF token missing or incorrect.): /api/login
+2025-05-08 18:36:22,522 INFO 127.0.0.1 - - [08/May/2025 18:36:22] "[31m[1mPOST /api/login HTTP/1.1[0m" 403 -
+2025-05-08 18:36:22,696 WARNING Forbidden (CSRF token missing or incorrect.): /api/login
+2025-05-08 18:36:22,697 INFO 127.0.0.1 - - [08/May/2025 18:36:22] "[31m[1mPOST /api/login HTTP/1.1[0m" 403 -
+2025-05-08 18:36:22,787 WARNING Forbidden (CSRF token missing or incorrect.): /api/login
+2025-05-08 18:36:22,788 INFO 127.0.0.1 - - [08/May/2025 18:36:22] "[31m[1mPOST /api/login HTTP/1.1[0m" 403 -
+2025-05-08 18:36:22,849 WARNING Forbidden (CSRF token missing or incorrect.): /api/login
+2025-05-08 18:36:22,850 INFO 127.0.0.1 - - [08/May/2025 18:36:22] "[31m[1mPOST /api/login HTTP/1.1[0m" 403 -
+2025-05-08 18:36:23,005 WARNING Forbidden (CSRF token missing or incorrect.): /api/login
+2025-05-08 18:36:23,006 INFO 127.0.0.1 - - [08/May/2025 18:36:23] "[31m[1mPOST /api/login HTTP/1.1[0m" 403 -
+2025-05-08 18:36:23,283 WARNING Forbidden (CSRF token missing or incorrect.): /api/login
+2025-05-08 18:36:23,284 INFO 127.0.0.1 - - [08/May/2025 18:36:23] "[31m[1mPOST /api/login HTTP/1.1[0m" 403 -
+2025-05-08 18:36:23,439 INFO 127.0.0.1 - - [08/May/2025 18:36:23] "OPTIONS /api/login HTTP/1.1" 200 -
+2025-05-08 18:36:23,580 INFO 127.0.0.1 - - [08/May/2025 18:36:23] "OPTIONS /api/login HTTP/1.1" 200 -
+2025-05-08 18:36:23,750 WARNING Forbidden (CSRF token missing or incorrect.): /api/login
+2025-05-08 18:36:23,750 INFO 127.0.0.1 - - [08/May/2025 18:36:23] "[31m[1mPOST /api/login HTTP/1.1[0m" 403 -
+2025-05-08 18:36:23,752 WARNING Forbidden (CSRF token missing or incorrect.): /api/login
+2025-05-08 18:36:23,752 INFO 127.0.0.1 - - [08/May/2025 18:36:23] "[31m[1mPOST /api/login HTTP/1.1[0m" 403 -
+2025-05-08 18:36:23,889 WARNING Forbidden (CSRF token missing or incorrect.): /api/login
+2025-05-08 18:36:23,890 INFO 127.0.0.1 - - [08/May/2025 18:36:23] "[31m[1mPOST /api/login HTTP/1.1[0m" 403 -
+2025-05-08 18:36:24,029 WARNING Forbidden (CSRF token missing or incorrect.): /api/login
+2025-05-08 18:36:24,030 INFO 127.0.0.1 - - [08/May/2025 18:36:24] "[31m[1mPOST /api/login HTTP/1.1[0m" 403 -
+2025-05-08 18:36:31,896 INFO 127.0.0.1 - - [08/May/2025 18:36:31] "OPTIONS /api/login HTTP/1.1" 200 -
+2025-05-08 18:36:32,210 WARNING Forbidden (CSRF token missing or incorrect.): /api/login
+2025-05-08 18:36:32,211 INFO 127.0.0.1 - - [08/May/2025 18:36:32] "[31m[1mPOST /api/login HTTP/1.1[0m" 403 -
+2025-05-08 18:36:42,749 INFO 127.0.0.1 - - [08/May/2025 18:36:42] "OPTIONS /api/login HTTP/1.1" 200 -
+2025-05-08 18:36:42,902 INFO 127.0.0.1 - - [08/May/2025 18:36:42] "OPTIONS /api/login HTTP/1.1" 200 -
+2025-05-08 18:36:43,011 WARNING Forbidden (CSRF token missing or incorrect.): /api/login
+2025-05-08 18:36:43,011 INFO 127.0.0.1 - - [08/May/2025 18:36:43] "[31m[1mPOST /api/login HTTP/1.1[0m" 403 -
+2025-05-08 18:36:43,057 WARNING Forbidden (CSRF token missing or incorrect.): /api/login
+2025-05-08 18:36:43,058 INFO 127.0.0.1 - - [08/May/2025 18:36:43] "[31m[1mPOST /api/login HTTP/1.1[0m" 403 -
+2025-05-08 18:36:43,060 WARNING Forbidden (CSRF token missing or incorrect.): /api/login
+2025-05-08 18:36:43,060 INFO 127.0.0.1 - - [08/May/2025 18:36:43] "[31m[1mPOST /api/login HTTP/1.1[0m" 403 -
+2025-05-08 18:36:43,211 WARNING Forbidden (CSRF token missing or incorrect.): /api/login
+2025-05-08 18:36:43,212 INFO 127.0.0.1 - - [08/May/2025 18:36:43] "[31m[1mPOST /api/login HTTP/1.1[0m" 403 -
+2025-05-08 18:36:43,214 WARNING Forbidden (CSRF token missing or incorrect.): /api/login
+2025-05-08 18:36:43,215 INFO 127.0.0.1 - - [08/May/2025 18:36:43] "[31m[1mPOST /api/login HTTP/1.1[0m" 403 -
+2025-05-08 18:36:43,349 WARNING Forbidden (CSRF token missing or incorrect.): /api/login
+2025-05-08 18:36:43,350 INFO 127.0.0.1 - - [08/May/2025 18:36:43] "[31m[1mPOST /api/login HTTP/1.1[0m" 403 -
+2025-05-08 18:36:43,503 WARNING Forbidden (CSRF token missing or incorrect.): /api/login
+2025-05-08 18:36:43,503 INFO 127.0.0.1 - - [08/May/2025 18:36:43] "[31m[1mPOST /api/login HTTP/1.1[0m" 403 -
+2025-05-08 18:36:43,644 WARNING Forbidden (CSRF token missing or incorrect.): /api/login
+2025-05-08 18:36:43,644 INFO 127.0.0.1 - - [08/May/2025 18:36:43] "[31m[1mPOST /api/login HTTP/1.1[0m" 403 -
+2025-05-08 18:36:43,926 WARNING Forbidden (CSRF token missing or incorrect.): /api/login
+2025-05-08 18:36:43,927 INFO 127.0.0.1 - - [08/May/2025 18:36:43] "[31m[1mPOST /api/login HTTP/1.1[0m" 403 -
+2025-05-08 18:36:44,081 WARNING Forbidden (CSRF token missing or incorrect.): /api/login
+2025-05-08 18:36:44,082 INFO 127.0.0.1 - - [08/May/2025 18:36:44] "[31m[1mPOST /api/login HTTP/1.1[0m" 403 -
+2025-05-08 18:36:44,238 WARNING Forbidden (CSRF token missing or incorrect.): /api/login
+2025-05-08 18:36:44,238 INFO 127.0.0.1 - - [08/May/2025 18:36:44] "[31m[1mPOST /api/login HTTP/1.1[0m" 403 -
+2025-05-08 18:36:59,015 INFO 127.0.0.1 - - [08/May/2025 18:36:59] "OPTIONS /api/login HTTP/1.1" 200 -
+2025-05-08 18:36:59,264 WARNING Forbidden (CSRF token missing or incorrect.): /api/login
+2025-05-08 18:36:59,264 INFO 127.0.0.1 - - [08/May/2025 18:36:59] "[31m[1mPOST /api/login HTTP/1.1[0m" 403 -
+2025-05-08 18:36:59,327 WARNING Forbidden (CSRF token missing or incorrect.): /api/login
+2025-05-08 18:36:59,327 INFO 127.0.0.1 - - [08/May/2025 18:36:59] "[31m[1mPOST /api/login HTTP/1.1[0m" 403 -
+2025-05-08 18:36:59,435 WARNING Forbidden (CSRF token missing or incorrect.): /api/login
+2025-05-08 18:36:59,435 INFO 127.0.0.1 - - [08/May/2025 18:36:59] "[31m[1mPOST /api/login HTTP/1.1[0m" 403 -
+2025-05-08 18:36:59,595 WARNING Forbidden (CSRF token missing or incorrect.): /api/login
+2025-05-08 18:36:59,596 INFO 127.0.0.1 - - [08/May/2025 18:36:59] "[31m[1mPOST /api/login HTTP/1.1[0m" 403 -
+2025-05-08 18:36:59,764 WARNING Forbidden (CSRF token missing or incorrect.): /api/login
+2025-05-08 18:36:59,765 INFO 127.0.0.1 - - [08/May/2025 18:36:59] "[31m[1mPOST /api/login HTTP/1.1[0m" 403 -
+2025-05-08 18:36:59,949 WARNING Forbidden (CSRF token missing or incorrect.): /api/login
+2025-05-08 18:36:59,950 INFO 127.0.0.1 - - [08/May/2025 18:36:59] "[31m[1mPOST /api/login HTTP/1.1[0m" 403 -
+2025-05-08 18:37:00,388 WARNING Forbidden (CSRF token missing or incorrect.): /api/login
+2025-05-08 18:37:00,389 INFO 127.0.0.1 - - [08/May/2025 18:37:00] "[31m[1mPOST /api/login HTTP/1.1[0m" 403 -
+2025-05-08 18:41:06,150 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+2025-05-08 18:41:06,150 INFO [33mPress CTRL+C to quit[0m
+2025-05-08 18:41:18,503 INFO 127.0.0.1 - - [08/May/2025 18:41:18] "OPTIONS /api/login HTTP/1.1" 200 -
+2025-05-08 18:41:18,746 WARNING Forbidden (CSRF token missing or incorrect.): /api/login
+2025-05-08 18:41:18,747 INFO 127.0.0.1 - - [08/May/2025 18:41:18] "[31m[1mPOST /api/login HTTP/1.1[0m" 403 -
+2025-05-08 18:41:19,617 WARNING Forbidden (CSRF token missing or incorrect.): /api/login
+2025-05-08 18:41:19,618 INFO 127.0.0.1 - - [08/May/2025 18:41:19] "[31m[1mPOST /api/login HTTP/1.1[0m" 403 -
+2025-05-08 18:41:20,083 WARNING Forbidden (CSRF token missing or incorrect.): /api/login
+2025-05-08 18:41:20,084 INFO 127.0.0.1 - - [08/May/2025 18:41:20] "[31m[1mPOST /api/login HTTP/1.1[0m" 403 -
+2025-05-08 18:41:20,239 WARNING Forbidden (CSRF token missing or incorrect.): /api/login
+2025-05-08 18:41:20,239 INFO 127.0.0.1 - - [08/May/2025 18:41:20] "[31m[1mPOST /api/login HTTP/1.1[0m" 403 -
+2025-05-08 18:41:20,348 WARNING Forbidden (CSRF token missing or incorrect.): /api/login
+2025-05-08 18:41:20,349 INFO 127.0.0.1 - - [08/May/2025 18:41:20] "[31m[1mPOST /api/login HTTP/1.1[0m" 403 -
+2025-05-08 18:41:59,039 INFO 127.0.0.1 - - [08/May/2025 18:41:59] "OPTIONS /api/login HTTP/1.1" 200 -
+2025-05-08 18:41:59,301 WARNING Forbidden (CSRF token missing or incorrect.): /api/login
+2025-05-08 18:41:59,301 INFO 127.0.0.1 - - [08/May/2025 18:41:59] "[31m[1mPOST /api/login HTTP/1.1[0m" 403 -
+2025-05-08 18:42:07,878 INFO 127.0.0.1 - - [08/May/2025 18:42:07] "[31m[1mGET /api/login HTTP/1.1[0m" 405 -
+2025-05-08 18:42:07,935 INFO 127.0.0.1 - - [08/May/2025 18:42:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-08 18:45:12,479 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+2025-05-08 18:45:12,479 INFO [33mPress CTRL+C to quit[0m
+2025-05-08 18:45:19,631 INFO 127.0.0.1 - - [08/May/2025 18:45:19] "OPTIONS /api/login HTTP/1.1" 200 -
+2025-05-08 18:45:19,893 WARNING Forbidden (CSRF token missing or incorrect.): /api/login
+2025-05-08 18:45:19,896 INFO 127.0.0.1 - - [08/May/2025 18:45:19] "[31m[1mPOST /api/login HTTP/1.1[0m" 403 -
+2025-05-08 18:45:20,862 WARNING Forbidden (CSRF token missing or incorrect.): /api/login
+2025-05-08 18:45:20,862 INFO 127.0.0.1 - - [08/May/2025 18:45:20] "[31m[1mPOST /api/login HTTP/1.1[0m" 403 -
+2025-05-08 18:45:25,180 INFO 127.0.0.1 - - [08/May/2025 18:45:25] "OPTIONS /api/login HTTP/1.1" 200 -
+2025-05-08 18:45:25,445 WARNING Forbidden (CSRF token missing or incorrect.): /api/login
+2025-05-08 18:45:25,445 INFO 127.0.0.1 - - [08/May/2025 18:45:25] "[31m[1mPOST /api/login HTTP/1.1[0m" 403 -
+2025-05-08 18:47:40,123 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+2025-05-08 18:47:40,123 INFO [33mPress CTRL+C to quit[0m
+2025-05-08 18:47:44,895 INFO 127.0.0.1 - - [08/May/2025 18:47:44] "OPTIONS /api/login HTTP/1.1" 200 -
+2025-05-08 18:47:45,166 WARNING Forbidden (CSRF token missing or incorrect.): /api/login
+2025-05-08 18:47:45,166 INFO 127.0.0.1 - - [08/May/2025 18:47:45] "[31m[1mPOST /api/login HTTP/1.1[0m" 403 -
+2025-05-08 18:47:49,777 WARNING Forbidden (CSRF token missing or incorrect.): /api/login
+2025-05-08 18:47:49,780 INFO 127.0.0.1 - - [08/May/2025 18:47:49] "[31m[1mPOST /api/login HTTP/1.1[0m" 403 -
+2025-05-08 18:47:51,379 INFO 127.0.0.1 - - [08/May/2025 18:47:51] "OPTIONS /api/login HTTP/1.1" 200 -
+2025-05-08 18:47:51,694 WARNING Forbidden (CSRF token missing or incorrect.): /api/login
+2025-05-08 18:47:51,696 INFO 127.0.0.1 - - [08/May/2025 18:47:51] "[31m[1mPOST /api/login HTTP/1.1[0m" 403 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-500-333
+INFO:werkzeug:127.0.0.1 - - [08/May/2025 18:49:11] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2025 18:49:11] "[35m[1mPOST /api/login HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\wikto\\PycharmProjects\\pythonProject1\\file_compering_new\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-500-333
+INFO:werkzeug: * Detected change in 'C:\\Users\\wikto\\PycharmProjects\\pythonProject1\\file_compering_new\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-500-333
+INFO:werkzeug: * Detected change in 'C:\\Users\\wikto\\PycharmProjects\\pythonProject1\\file_compering_new\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-500-333
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-500-333
+INFO:werkzeug:127.0.0.1 - - [08/May/2025 18:51:52] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2025 18:51:52] "POST /api/login HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:5000
+ * Running on https://192.168.100.11:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [08/May/2025 18:55:13] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2025 18:55:14] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2025 18:55:15] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2025 18:55:15] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2025 18:55:15] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2025 18:55:15] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:root:Database backed up to C:/Users/wikto/db_backup/backup_2025-05-08T16-55-24Z.sql
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-500-333
+INFO:werkzeug: * Detected change in 'C:\\Users\\wikto\\PycharmProjects\\pythonProject1\\file_compering_new\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-500-333
+INFO:werkzeug: * Detected change in 'C:\\Users\\wikto\\PycharmProjects\\pythonProject1\\file_compering_new\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-500-333
+INFO:werkzeug: * Detected change in 'C:\\Users\\wikto\\PycharmProjects\\pythonProject1\\file_compering_new\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-500-333
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-500-333
+INFO:werkzeug:127.0.0.1 - - [08/May/2025 18:58:07] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2025 18:58:07] "POST /api/login HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\wikto\\PycharmProjects\\pythonProject1\\file_compering_new\\backend\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-500-333
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on https://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 115-500-333
+INFO:werkzeug:127.0.0.1 - - [08/May/2025 19:00:11] "OPTIONS /api/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/May/2025 19:00:12] "POST /api/login HTTP/1.1" 200 -
