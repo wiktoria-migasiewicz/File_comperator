@@ -75,7 +75,7 @@ jobs:
         run: pip-audit --format json > pip-audit.json || true
 
       - name: Upload pip-audit report
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v1
         with:
          name: pip-audit-report
          path: pip-audit.json
@@ -99,7 +99,7 @@ jobs:
         run: |
           npm audit --json > npm-audit.json
       - name: Upload audit report artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v1
         with:
           name: npm-audit-report
           path: ./frontend/file-comparator-fe/npm-audit.json
