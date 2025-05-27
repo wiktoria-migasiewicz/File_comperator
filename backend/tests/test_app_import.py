@@ -1,5 +1,5 @@
 import pytest
-from backend.app import app as flask_app
+from file_compering_new.backend.app import app as flask_app
 from flask import Flask
 
 def test_flask_app_imports_and_is_flask_instance():
