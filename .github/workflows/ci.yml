@@ -9,10 +9,6 @@ jobs:
   build-and-test:
     runs-on: ubuntu-latest
 
-    defaults:
-      run:
-        working-directory: file_compering_new
-        
     steps:
     - uses: actions/checkout@v3
 
