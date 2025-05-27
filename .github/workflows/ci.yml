@@ -48,7 +48,8 @@ jobs:
         run: |
           semgrep --config auto \
                   --quiet \
-                  --sarif semgrep-results.sarif
+                  --sarif semgrep-results.sarif \
+                  .
 
       - name: Upload Semgrep SARIF to Code Scanning
         uses: github/codeql-action/upload-sarif@v3
