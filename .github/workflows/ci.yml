@@ -47,7 +47,6 @@ jobs:
       - name: Run Semgrep & generate SARIF
         run: |
           semgrep --config auto \
-                  --quiet \
                   --sarif semgrep-results.sarif \
                   .
 
