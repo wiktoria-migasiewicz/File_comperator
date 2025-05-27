@@ -142,8 +142,9 @@ jobs:
         with:
           node-version: '18'
 
-      - name: Upgrade npm
-        run: npm install -g npm@latest
+      - name: Install missing Rollup native module
+        run: npm install @rollup/rollup-linux-x64-gnu --save-optional
+        working-directory: ./frontend/file-comparator-fe
 
       - name: Install frontend deps
         run: npm ci
