@@ -74,9 +74,9 @@ jobs:
       - name: Run pip-audit → JSON
         run: pip-audit --format json > pip-audit.json || true
 
-      - name: Run pip-audit → Full text
+      - name: Show npm audit JSON
         run: |
-          pip-audit --format full > pip-audit-full.txt || true
+          echo ">>>>> pip-audit.json <<<<<"
 
 
   sca-node:
@@ -99,10 +99,9 @@ jobs:
         run: |
           npm audit --json > npm-audit.json
 
-      - name: Run npm audit → Text
+      - name: Show npm audit JSON
         run: |
-          npm audit > npm-audit.txt || true
-
+          echo ">>>>> pip-audit.json <<<<<"
 
   # --- build and test ---
   build-and-test:
@@ -143,8 +142,11 @@ jobs:
         with:
           node-version: '18'
 
+      - name: Upgrade npm
+        run: npm install -g npm@latest
+
       - name: Install frontend deps
-        run: npm ci --no-optional
+        run: npm ci
         working-directory: ./frontend/file-comparator-fe
 
       - name: Run frontend tests
