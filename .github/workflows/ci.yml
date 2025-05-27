@@ -144,7 +144,7 @@ jobs:
           node-version: '18'
 
       - name: Install frontend deps
-        run: npm ci
+        run: npm ci --no-optional
         working-directory: ./frontend/file-comparator-fe
 
       - name: Run frontend tests
