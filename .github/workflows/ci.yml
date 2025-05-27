@@ -27,7 +27,7 @@ jobs:
         ls -R .
     - name: Run backend tests
       env:
-        PYTHONPATH: ${{ github.workspace }}/file_compering_new
+        PYTHONPATH: ${{ github.workspace }}
       run: pytest
 
     # Node / React
