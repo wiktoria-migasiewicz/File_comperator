@@ -22,7 +22,6 @@ jobs:
       - name: Initialize CodeQL
         uses: github/codeql-action/init@v3
         with:
-          cli-version: latest
           languages: python, javascript
 
       - name: Autobuild
