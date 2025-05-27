@@ -57,6 +57,53 @@ jobs:
         with:
           sarif_file: semgrep-results.sarif
 
+  sca-python:
+    name: 🧩 SCA (Python)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install pip-audit
+        run: pip install pip-audit
+
+      - name: Run pip-audit → SARIF
+        run: |
+          pip-audit --format=sarif > pip-audit.sarif
+
+      - name: Upload pip-audit SARIF
+        uses: github/codeql-action/upload-sarif@v3
+        with:
+          sarif_file: pip-audit.sarif
+
+  sca-node:
+    name: 🧩 SCA (Node)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install deps
+        run: npm ci
+        working-directory: ./frontend/file-comparator-fe
+
+      - name: Run npm audit
+        run: |
+          npm audit --json > npm-audit.json
+      - name: Upload audit report artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: npm-audit-report
+          path: ./frontend/file-comparator-fe/npm-audit.json
+
   # --- build and test ---
   build-and-test:
     name: 🔨 Build & Test
