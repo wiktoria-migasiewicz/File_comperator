@@ -21,6 +21,8 @@ jobs:
       run: |
         pip install -r requirements.txt
     - name: Run backend tests
+      env:
+        PYTHONPATH: ${{ github.workspace }}/file_compering_new
       run: pytest
 
     # Node / React
