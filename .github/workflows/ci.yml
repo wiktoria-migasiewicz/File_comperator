@@ -1,0 +1,36 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    # Python
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    - name: Install backend deps
+      run: |
+        pip install -r requirements.txt
+    - name: Run backend tests
+      run: pytest
+
+    # Node / React
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+    - name: Install frontend deps
+      run: npm ci
+      working-directory: ./frontend/file-comparator-fe
+    - name: Run frontend tests
+      run: npm test -- --watchAll=false
+      working-directory: ./frontend/file-comparator-fe
