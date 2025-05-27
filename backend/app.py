@@ -254,15 +254,15 @@ def my_comparisons():
     return jsonify(comparisons), 200
 
 # Health-check endpoint for database connectivity
-@app.route('/api/test-db')
-def test_db():
-    try:
-        db = get_db()
-        cursor = db.cursor()
-        cursor.execute("SELECT 1")
-        return jsonify({'message': 'DB Connection Successful'}), 200
-    except Exception:
-        return jsonify({'error': 'DB Connection Failed'}), 500
+# @app.route('/api/test-db')
+# def test_db():
+#     try:
+#         db = get_db()
+#         cursor = db.cursor()
+#         cursor.execute("SELECT 1")
+#         return jsonify({'message': 'DB Connection Successful'}), 200
+#     except Exception:
+#         return jsonify({'error': 'DB Connection Failed'}), 500
 
 # Serve uploaded files statically
 @app.route('/uploads/<path:filename>')
