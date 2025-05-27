@@ -20,6 +20,11 @@ jobs:
     - name: Install backend deps
       run: |
         pip install -r requirements.txt
+    - name: Debug list files
+      run: |
+        echo "Workspace = ${{ github.workspace }}"
+        pwd
+        ls -R .
     - name: Run backend tests
       env:
         PYTHONPATH: ${{ github.workspace }}/file_compering_new
