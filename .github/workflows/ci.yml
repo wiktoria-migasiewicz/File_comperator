@@ -46,9 +46,11 @@ jobs:
 
       - name: Run Semgrep & generate SARIF
         run: |
-          semgrep --config auto \
-                  --sarif semgrep-results.sarif \
-                  .
+          semgrep scan \
+            --config auto \
+            --sarif \
+            --sarif-output=semgrep-results.sarif \
+            .
 
       - name: Upload Semgrep SARIF to Code Scanning
         uses: github/codeql-action/upload-sarif@v3
