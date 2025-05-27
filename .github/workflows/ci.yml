@@ -77,7 +77,6 @@ jobs:
       - name: Show npm audit JSON
         run: |
           echo ">>>>> pip-audit.json <<<<<"
-          cat pip-audit.json
 
 
   sca-node:
@@ -103,7 +102,6 @@ jobs:
       - name: Show npm audit JSON
         run: |
           echo ">>>>> pip-audit.json <<<<<"
-          cat pip-audit.json
 
   # --- build and test ---
   build-and-test:
