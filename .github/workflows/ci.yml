@@ -91,6 +91,7 @@ jobs:
         working-directory: ./frontend/file-comparator-fe
 
       - name: Run npm audit
+        working-directory: ./frontend/file-comparator-fe
         run: |
           npm audit --json > npm-audit.json
 
