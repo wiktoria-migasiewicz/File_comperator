@@ -74,6 +74,14 @@ jobs:
       - name: Run pip-audit → JSON
         run: pip-audit --format json > pip-audit.json || true
 
+      - name: Upload Python SCA artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: python-sca-reports
+          path: |
+            pip-audit.json
+            pip-audit-full.txt
+
 
   sca-node:
     name: 🧩 SCA (Node)
@@ -94,6 +102,14 @@ jobs:
         working-directory: ./frontend/file-comparator-fe
         run: |
           npm audit --json > npm-audit.json
+          
+      - name: Upload Node SCA artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: node-sca-reports
+          path: |
+            npm-audit.json
+            npm-audit.txt
 
 
   # --- build and test ---
