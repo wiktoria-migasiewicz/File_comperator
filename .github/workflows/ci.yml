@@ -4,6 +4,7 @@ on:
   push:
     branches: [ main ]
   pull_request:
+  workflow_dispatch:
 
 permissions:
   actions: read
@@ -43,9 +44,16 @@ jobs:
         run: |
           pip install semgrep
 
-      - name: Run Semgrep
+      - name: Run Semgrep & generate SARIF
         run: |
-          semgrep --config auto --quiet
+          semgrep --config auto \
+                  --quiet \
+                  --sarif semgrep-results.sarif
+
+      - name: Upload Semgrep SARIF to Code Scanning
+        uses: github/codeql-action/upload-sarif@v3
+        with:
+          sarif_file: semgrep-results.sarif
 
   # --- build and test ---
   build-and-test:
