@@ -9,6 +9,9 @@ jobs:
   build-and-test:
     runs-on: ubuntu-latest
 
+    env:
+      SECRET_KEY: something-insecure-for-ci
+
     steps:
     - uses: actions/checkout@v3
 
