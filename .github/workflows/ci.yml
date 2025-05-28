@@ -74,9 +74,11 @@ jobs:
       - name: Run pip-audit → JSON
         run: pip-audit --format json > pip-audit.json || true
 
-      - name: Show npm audit JSON
-        run: |
-          echo ">>>>> pip-audit.json <<<<<"
+      - name: Upload pip-audit report
+        uses: actions/upload-artifact@v3
+        with:
+          name: pip-audit-report
+          path: pip-audit.json
 
 
   sca-node:
@@ -99,9 +101,11 @@ jobs:
         run: |
           npm audit --json > npm-audit.json
 
-      - name: Show npm audit JSON
-        run: |
-          echo ">>>>> pip-audit.json <<<<<"
+      - name: Upload npm-audit report
+        uses: actions/upload-artifact@v3
+        with:
+          name: npm-audit-report
+          path: frontend/file-comparator-fe/npm-audit.json
 
   # --- build and test ---
   build-and-test:
