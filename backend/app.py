@@ -287,6 +287,14 @@ def start_backup_scheduler():
     scheduler.add_job(backup_database, 'interval', hours=24)
     scheduler.start()
 
+@app.route('/api/vulnerable-login', methods=['GET'])
+def vulnerable_login():
+    username = request.args.get('username')
+    query = f"SELECT * FROM users WHERE username = '{username}'"
+    db = get_db()
+    cursor = db.cursor(MySQLdb.cursors.DictCursor)
+    cursor.execute(query)
+
 if __name__ == "__main__":
     # Optionally start backup scheduler
     # start_backup_scheduler()
