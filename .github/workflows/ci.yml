@@ -165,25 +165,10 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
+      - name: Run Semgrep Action – all public Registry rules
+        uses: returntocorp/semgrep-action@v2
         with:
-          python-version: '3.11'
+          config: r/all
 
-      - name: Install Semgrep
-        run: pip install semgrep
-
-      - name: Run Semgrep – all Registry rules
-        run: |
-          semgrep scan \
-            --config r/all \
-            --sarif \
-            --sarif-output=semgrep-all.sarif \
-            .
-
-      - name: Upload all-rules SARIF to Code Scanning
-        uses: github/codeql-action/upload-sarif@v3
-        with:
-          sarif_file: semgrep-all.sarif
 
 
