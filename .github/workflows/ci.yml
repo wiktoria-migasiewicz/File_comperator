@@ -164,11 +164,11 @@ jobs:
     needs: [semgrep-scan]
     steps:
       - uses: actions/checkout@v3
-
       - name: Run Semgrep Action – all public Registry rules
-        uses: returntocorp/semgrep-action@v2
+        uses: semgrep/semgrep-action@v1
         with:
-          config: r/all
+          config: r/all                     
+
 
 
 
