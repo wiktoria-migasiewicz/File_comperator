@@ -170,9 +170,11 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Install Semgrep
+        run: pip install semgrep
+
       - name: Checkout Semgrep ASVS rules
-        run: |
-          git clone https://github.com/semgrep/rules-owasp-asvs.git .semgrep-asvs
+        run: git clone https://github.com/semgrep/rules-owasp-asvs.git .semgrep-asvs
 
       - name: Run Semgrep against ASVS rules
         run: |
