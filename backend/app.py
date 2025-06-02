@@ -287,6 +287,7 @@ def start_backup_scheduler():
     scheduler.add_job(backup_database, 'interval', hours=24)
     scheduler.start()
 
+
 if __name__ == "__main__":
     # Optionally start backup scheduler
     # start_backup_scheduler()
