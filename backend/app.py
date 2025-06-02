@@ -280,7 +280,7 @@ def backup_database():
         f" -h {app.config['MYSQL_HOST']} -P {app.config['MYSQL_PORT']} {app.config['MYSQL_DB']} > {backup_file}"
     )
     os.system(command)
-
+#testing
 # Schedule daily database backups using APScheduler
 def start_backup_scheduler():
     scheduler = BackgroundScheduler()
